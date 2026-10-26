@@ -1,26 +1,26 @@
 class Igris < Formula
   desc "Runs a project's task plan through Claude Code sessions in herdr, one task at a time"
   homepage "https://drilonrecica.github.io/igris/"
-  version "1.7.0"
+  version "1.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/drilonrecica/igris/releases/download/v1.7.0/igris_1.7.0_darwin_arm64.tar.gz"
-      sha256 "8bb60bb6899bb7e4b7bca8b1a702c4e27be62def6f48b810a4dbc9364bc41fad"
+      url "https://github.com/drilonrecica/igris/releases/download/v1.8.0/igris_1.8.0_darwin_arm64.tar.gz"
+      sha256 "44337106c7b262c1632b889f38f37a166897fe030f674eaa528b1a8a5f42010f"
     else
-      url "https://github.com/drilonrecica/igris/releases/download/v1.7.0/igris_1.7.0_darwin_amd64.tar.gz"
-      sha256 "4613aed2e98bbec69219e0849fc424335af56fd78a23bfdea7a5d292efd41c4b"
+      url "https://github.com/drilonrecica/igris/releases/download/v1.8.0/igris_1.8.0_darwin_amd64.tar.gz"
+      sha256 "495033d7f056d2b1be430e74d9fd16f0f75e02058ff8123f37c5a3a3de9a0ecd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/drilonrecica/igris/releases/download/v1.7.0/igris_1.7.0_linux_arm64.tar.gz"
-      sha256 "48df053d5c0d565d48dbaa36d79e89781883a958206f227b8edae426ab6baabe"
+      url "https://github.com/drilonrecica/igris/releases/download/v1.8.0/igris_1.8.0_linux_arm64.tar.gz"
+      sha256 "15b80ba469a2aa8527ce5c3a24496be27a51c0ed35a6d53b5601af234eae6de9"
     else
-      url "https://github.com/drilonrecica/igris/releases/download/v1.7.0/igris_1.7.0_linux_amd64.tar.gz"
-      sha256 "911269df0251ade4e7fe09c3e31943467c558bb4847f718bc446533e0878551e"
+      url "https://github.com/drilonrecica/igris/releases/download/v1.8.0/igris_1.8.0_linux_amd64.tar.gz"
+      sha256 "a89d55c1080d90e9aca4b9d63a5ed04d31512da7bdd22801fc2d3064725aefeb"
     end
   end
 
